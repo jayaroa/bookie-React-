@@ -1,0 +1,81 @@
+.footer {
+    margin: 24px 30px 24px 30px;
+    border-top: 1px solid #3d3d3d;
+    .footer-sub {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        .footer-left {
+            color: #8a8a8a;
+            font-size: 14px;
+            line-height: 16px;
+            a {
+                color: #8a8a8a;
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: unset;
+                }
+            }
+        }
+        .footer-right {
+            a {
+                display: block;
+                height: 36px;
+                width: 74px;
+                background: url(../../../img/by-bookie.png) no-repeat 0 0;
+                float: right;
+                right: 11px;
+                bottom: 24px;
+                -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .79);
+                -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .79);
+                -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, .79);
+                box-shadow: 1px 1px 3px rgba(0, 0, 0, .79);
+                text-decoration: none;
+                color: #fff;
+                outline: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-left: 0px;
+        .copyright {
+            text-align: right;
+            margin-right: 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer {
+        .copyright {
+            float: right;
+            padding-right: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        nav {
+            display: block;
+            margin-bottom: 5px;
+            float: none;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        text-align: center;
+        .copyright {
+            text-align: center;
+        }
+        .nav {
+            float: none;
+            padding-left: 0;
+        }
+    }
+}
