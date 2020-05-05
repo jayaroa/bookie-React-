@@ -57,13 +57,19 @@
 @import "black-dashboard-react/custom/rtl.scss";
 @import "black-dashboard-react/custom/input-group.scss";
 @import "black-dashboard-react/custom/header.scss";
+@import "black-dashboard-react/custom/live.scss";
+@import "black-dashboard-react/custom/betcard.scss";
+@import "black-dashboard-react/custom/menu.scss";
+@import "black-dashboard-react/custom/reset.scss";
+@import "black-dashboard-react/custom/paginator.scss";
+@import "black-dashboard-react/custom/glob.scss";
 // Vendor / Plugins
 @import "black-dashboard-react/custom/vendor/plugin-perfect-scrollbar.scss";
 @import "black-dashboard-react/custom/vendor/plugin-react-notification-alert.scss";
 // light mode
 @import "black-dashboard-react/custom/white-content.scss";
 // Cards
-@import 'black-dashboard-react/custom/card';
+@import "black-dashboard-react/custom/card";
 @import "black-dashboard-react/custom/cards/card-chart";
 @import "black-dashboard-react/custom/cards/card-map";
 @import "black-dashboard-react/custom/cards/card-user";
