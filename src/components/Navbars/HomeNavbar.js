@@ -108,7 +108,7 @@ class HomeNavbar extends React.Component {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/index" tag={Link}>
+                            <NavLink to="/live" tag={Link}>
                                 Live
                             </NavLink>
                         </NavItem>

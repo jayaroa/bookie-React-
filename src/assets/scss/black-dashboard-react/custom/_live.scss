@@ -1,0 +1,785 @@
+.wrapper {
+  position: relative;
+  top: 0;
+  height: 100vh;
+  &.wrapper-full-page {
+    min-height: 100vh;
+    height: auto;
+  }
+}
+
+.main-panel {
+  position: relative;
+  float: right;
+  width: $full-width;
+  min-height: 100vh;
+  border-top: 2px solid $primary;
+  background: linear-gradient($background-black, $background-states-black);
+  background: #121212 url(../../../img/body_top_gr_1x64.png) repeat-x 0 43px;
+  @include transitions(0.5s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+  &[data="blue"] {
+    border-top: 2px solid $info;
+  }
+  &[data="green"] {
+    border-top: 2px solid $success;
+  }
+  &[data="primary"] {
+    border-top: 2px solid $primary;
+  }
+  > .live-page {
+    margin: 90px 30px 48px 20px;
+    padding: 8px;
+    background: #2c530a url(../../../img/soccer_live/live_soccer_bg_img.png)
+      no-repeat center 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #4b4b4b;
+    z-index: 1;
+    .content1 {
+      min-height: calc(100vh - 70px);
+    }
+  }
+  > .navbar {
+    margin-bottom: 0;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+}
+.upper {
+  background: url(../../../img/live_content_bg.png) repeat-x scroll 0 0 transparent;
+  padding: 5px 6px;
+  position: relative;
+  min-height: 320px;
+}
+
+.live_sched {
+  height: 34px;
+  color: #fff;
+  background: #0a0a0a;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(31, 31, 30, 0.7) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31f1f1e',endColorstr='#000000',GradientType=0 );
+  border: 1px solid #000;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  &:hover {
+    background: linear-gradient(
+      to bottom,
+      rgba(31, 31, 30, 0.9) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 9px 0 10px 34px;
+    font-weight: 700;
+    background: url(../../../img/bg_calendar.png) no-repeat 8px 8px;
+  }
+}
+.events_contein {
+  background: 0 0;
+  margin-top: 7px;
+  > .b-bet-grid__one_ev {
+    padding-top: 7px !important;
+    border: 1px solid #000 !important;
+    color: #878681;
+    color: rgba(135, 134, 129, 0.8);
+    background: #182e06;
+    background: rgba(24, 46, 6, 0.4);
+    border-top: 1px solid #33521a;
+    border-top: 1px solid rgba(51, 82, 26, 0.7);
+    font-size: 14px;
+  }
+}
+.bet_slip_txt {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  color: #fff;
+  font-weight: 700;
+}
+.b-title_upcoming .bet_slip_txt i {
+  background: url(../../../img/cal.png) no-repeat 0 0;
+  display: inline-block;
+  //   float: left;
+  height: 26px;
+  width: 26px;
+  box-shadow: 1px 1px 3px #000;
+  margin: -4px 8px -7px 8px;
+}
+.b-title__bg {
+  border-bottom: 0;
+  padding-top: 7px !important;
+  border: 1px solid #000 !important;
+  background: #0e3804;
+  background: rgba(14, 56, 4, 0.6);
+}
+.title_contein_box h1 {
+  background: #0c2c04;
+  background: linear-gradient(
+    top,
+    rgba(12, 44, 4, 0.9) 0%,
+    rgba(14, 26, 4, 0.9) 100%
+  );
+  margin: 0;
+  border-top: 0;
+  border-bottom: 1px solid #244b13;
+  text-shadow: 1px 1px 0 #000;
+  border-top: 1px solid #111f06;
+}
+.upcoming_nav {
+  padding: 0 3px;
+  margin-top: -41px;
+  table {
+    width: 100%;
+    table-layout: fixed;
+
+    td {
+      padding: 0 3px;
+    }
+  }
+  input {
+    border: 1px solid #000;
+    height: 25px;
+    border-right: 0;
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+  }
+  .u_search input {
+    padding: 0 0 0 5px;
+    color: #000;
+  }
+}
+.m-menu__link_s {
+  background: #000 url(../../../img/soccer_live/menu_button_soccer.png)
+    no-repeat;
+  background-position: 100% 0 !important;
+}
+.d_week a.selected {
+  background: #ffa800;
+  // background: -webkit-linear-gradient(top, bottom, #eba61f, #986b03);
+  // background: -webkit-gradient(
+  //   linear,
+  //   left top,
+  //   left bottom,
+  //   color-stop(0%, #eba61f),
+  //   color-stop(100%, #986b03)
+  // );
+  background-image: linear-gradient(to bottom, #eba61f, #986b03);
+  // background: -o-linear-gradient(top, #eba61f, #986b03);
+  // background: -ms-linear-gradient(top, #eba61f, #986b03);
+}
+
+.d_week {
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 0;
+    height: 55px;
+    background: #274616;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4D7B34',endColorstr='#274616');
+    background-image: linear-gradient(to top, #4d7b34, #274616);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0%, #4d7b34),
+      color-stop(100%, #274616)
+    );
+    background: -moz-linear-gradient(top, #4d7b34, #274616);
+    background: -o-linear-gradient(top, #4d7b34, #274616);
+    background: -ms-linear-gradient(top, #4d7b34, #274616);
+    border: 1px solid #000;
+    -webkit-box-shadow: 1px 1px 2px #14230c;
+    -moz-box-shadow: 1px 1px 2px #14230c;
+    box-shadow: 1px 1px 2px #14230c;
+    &:hover {
+      background: #274616;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#629D43',endColorstr='#274616');
+      background: -webkit-linear-gradient(top, bottom, #629d43, #274616);
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #629d43),
+        color-stop(100%, #274616)
+      );
+      background: -moz-linear-gradient(top, #629d43, #274616);
+      background: -o-linear-gradient(top, #629d43, #274616);
+      background: -ms-linear-gradient(top, #629d43, #274616);
+      border: 1px solid #000;
+    }
+    &:active {
+      background: #335b1e;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#335B1E',endColorstr='#446930');
+      background: -webkit-linear-gradient(top, bottom, #335b1e, #446930);
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #335b1e),
+        color-stop(100%, #446930)
+      );
+      background: -moz-linear-gradient(top, #335b1e, #446930);
+      background: -o-linear-gradient(top, #335b1e, #446930);
+      background: -ms-linear-gradient(top, #335b1e, #446930);
+      border: 1px solid #000;
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+    }
+    .u_date {
+      margin-bottom: 2px;
+    }
+    .u_day {
+      font-weight: 700;
+    }
+  }
+}
+.up_content {
+  margin: 6px;
+  overflow: hidden;
+  background: #182e06;
+  background: rgba(24, 46, 6, 0.4);
+  border-top: 1px solid #33521a;
+  border-top: 1px solid rgba(51, 82, 26, 0.7);
+  border: 1px solid #afbea4;
+  border: 1px solid rgba(175, 190, 164, 0.8);
+  .b-paginator {
+    border: 1px solid #2e6107;
+    border: 1px solid rgba(46, 97, 7, 0.8);
+    background: linear-gradient(
+      to bottom,
+      rgba(20, 40, 13, 0.6) 0%,
+      rgba(12, 22, 7, 0.6) 100%
+    );
+  }
+  .b-bet-grid {
+    border-top: 1px solid #33521a;
+    border-top: 1px solid rgba(51, 82, 26, 0.7);
+  }
+  // .b-bet-grid__cell {
+  //   font-size: 14px;
+  //   background: #382c04;
+  //   border-top: 1px solid #65531a;
+  //   background: rgba(56, 44, 4, 0.4);
+  //   border-top: 1px solid rgba(101, 83, 26, 0.6);
+  // }
+  // .b-bet-grid__odd .b-bet-grid__cell {
+  //   background: #26200d;
+  //   background: rgba(38, 32, 13, 0.4);
+  // }
+}
+.u_search_button {
+  background: #254113;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#345820',endColorstr='#1B320F');
+  background: -webkit-linear-gradient(top, bottom, #345820, #1b320f);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #345820),
+    color-stop(100%, #1b320f)
+  );
+  background: -moz-linear-gradient(top, #345820, #1b320f);
+  background: -o-linear-gradient(top, #345820, #1b320f);
+  background: -ms-linear-gradient(top, #345820, #1b320f);
+}
+.u_dd_sports:hover .u_search_button {
+  background: #3a651f;
+  background: -webkit-linear-gradient(top, bottom, #4a7c2e, #2c4f19);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #4a7c2e),
+    color-stop(100%, #2c4f19)
+  );
+  background: -moz-linear-gradient(top, #4a7c2e, #2c4f19);
+  background: -o-linear-gradient(top, #4a7c2e, #2c4f19);
+  background: -ms-linear-gradient(top, #4a7c2e, #2c4f19);
+}
+.u_dd_sports,
+.u_search {
+  position: relative;
+  padding-right: 35px;
+  padding-bottom: 13px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.current_sports {
+  border: 1px solid #000;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  font-size: 14px;
+  color: #000;
+}
+.b-bet-live_name a {
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+.b-cell_hover_up a {
+  color: #fff;
+  &:hover {
+    color: #f0d13f;
+    border-color: #f7b026;
+  }
+}
+
+#c-sport .sport_select {
+  display: inline-block;
+  padding: 4px 8px 3px 4px;
+  color: #000;
+  text-decoration: none;
+  text-shadow: none;
+  line-height: 18px;
+}
+#c-sport .b-menu__icon {
+  margin-top: -4px;
+}
+.sports_dd {
+  display: none;
+  position: absolute;
+  width: 100%;
+  .b-menu__icon {
+    margin: -5px 5px -3px -4px;
+  }
+  div {
+    border: 1px solid #000;
+    border-top: 0;
+  }
+  .sport_select {
+    display: block;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: 1px 1px #ededed;
+    border-top: 1px solid #b0b0b0;
+  }
+  .sport_select:first-child {
+    border-top: 0;
+  }
+  .sport_select:hover {
+    background: #d2d2d2;
+    background: rgba(210, 210, 210, 0.8);
+  }
+}
+.u_dd_sports:hover .sports_dd {
+  display: block;
+}
+
+.u_search_button {
+  border: 1px solid #000;
+  display: block;
+  height: 25px;
+  width: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  i {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(../../../img/searh_i.png) no-repeat 8px -24px;
+    &:hover {
+      background-position: 8px 2px;
+    }
+  }
+}
+.u_dd_sports:hover .sports_dd {
+  display: block;
+}
+.u_dd_sports .u_search_button i {
+  background: 0 0;
+  font-style: normal;
+  line-height: 27px;
+  font-size: 21px;
+  text-align: center;
+  color: #eee;
+}
+.current_sports .b-menu__icon {
+  margin: -5px 5px 0 0;
+}
+.current_sports .b-menu__icon {
+  margin: -5px 5px 0 0;
+}
+.b-paginator__item {
+  border-color: #fff;
+  display: inline-block;
+}
+.b-paginator {
+  margin: 0 -1px 7px;
+  padding: 2px 0;
+  border: 1px solid #2e6107;
+  border: 1px solid rgba(46, 97, 7, 0.8);
+  background: -moz-linear-gradient(
+    top,
+    rgba(20, 40, 13, 0.6) 0%,
+    rgba(12, 22, 7, 0.6) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(20, 40, 13, 0.6)),
+    color-stop(100%, rgba(12, 22, 7, 0.6))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(20, 40, 13, 0.6) 0%,
+    rgba(12, 22, 7, 0.6) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(20, 40, 13, 0.6) 0%,
+    rgba(12, 22, 7, 0.6) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(20, 40, 13, 0.6) 0%,
+    rgba(12, 22, 7, 0.6) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 40, 13, 0.6) 0%,
+    rgba(12, 22, 7, 0.6) 100%
+  );
+}
+//   .u_search_button i:hover {
+//     background-position: 8px 2px;
+//   }
+// .live_sched:hover {
+//   background: -moz-linear-gradient(
+//     top,
+//     rgba(31, 31, 30, 0.9) 0%,
+//     rgba(0, 0, 0, 1) 100%
+//   );
+//   background: -webkit-gradient(
+//     linear,
+//     left top,
+//     left bottom,
+//     color-stop(0%, rgba(31, 31, 30, 0.9)),
+//     color-stop(100%, rgba(0, 0, 0, 1))
+//   );
+//   background: -webkit-linear-gradient(
+//     top,
+//     rgba(31, 31, 30, 0.9) 0%,
+//     rgba(0, 0, 0, 1) 100%
+//   );
+//   background: -webkit-gradient(
+//     linear,
+//     left top,
+//     left bottom,
+//     color-stop(0%, rgba(31, 31, 30, 0.9)),
+//     color-stop(100%, rgba(0, 0, 0, 1))
+//   );
+//   background: -o-linear-gradient(
+//     top,
+//     rgba(31, 31, 30, 0.9) 0%,
+//     rgba(0, 0, 0, 1) 100%
+//   );
+//   background: -ms-linear-gradient(
+//     top,
+//     rgba(31, 31, 30, 0.9) 0%,
+//     rgba(0, 0, 0, 1) 100%
+//   );
+//   background: linear-gradient(
+//     to bottom,
+//     rgba(31, 31, 30, 0.9) 0%,
+//     rgba(0, 0, 0, 1) 100%
+//   );
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61f1f1e',endColorstr='#000000',GradientType=0 );
+// }
+// .live_sched a {
+//   color: #fff;
+//   font-size: 14px;
+//   text-decoration: none;
+//   display: block;
+//   padding: 9px 0 10px 34px;
+//   font-weight: 700;
+//   background: url(../../../img/bg_calendar.png) no-repeat 8px 8px;
+// }
+
+.perfect-scrollbar-on {
+  .main-panel {
+    height: 100%;
+    max-height: 100%;
+  }
+}
+
+.sidebar,
+.main-panel,
+.sidebar-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 991px) {
+  .sidebar,
+  .main-panel,
+  .sidebar-wrapper {
+    -webkit-transition-property: top, bottom, width;
+    transition-property: top, bottom, width;
+    -webkit-transition-duration: 0.2s, 0.2s, 0.35s;
+    transition-duration: 0.2s, 0.2s, 0.35s;
+    -webkit-transition-timing-function: linear, linear, ease;
+    transition-timing-function: linear, linear, ease;
+  }
+  .sidebar-mini {
+    .visible-on-sidebar-regular {
+      display: none !important;
+    }
+    .visible-on-sidebar-mini {
+      display: inline-block !important;
+    }
+    .sidebar {
+      width: 80px;
+      .sidebar-wrapper {
+        width: 100% !important;
+      }
+    }
+    .sidebar {
+      display: block;
+      z-index: 1030;
+      box-shadow: $sidebar-box-shadow;
+      .logo {
+        a.logo-normal {
+          opacity: 0;
+          @include transform-translate-x(-25px);
+        }
+      }
+      .sidebar-wrapper {
+        > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+        .user
+          .info
+          [data-toggle="collapse"]
+          ~ div
+          > ul
+          > li
+          > a
+          .sidebar-normal,
+        .user .info > a > span,
+        > .nav li > a p {
+          @include transform-translate-x(-25px);
+          opacity: 0;
+        }
+      }
+      .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon {
+        opacity: 1;
+      }
+    }
+    .sidebar:hover {
+      width: 260px;
+      .logo {
+        a.logo-normal {
+          opacity: 1;
+          @include transform-translate-x(0);
+        }
+      }
+      .navbar-minimize {
+        opacity: 1;
+      }
+      .sidebar-wrapper {
+        width: 260px;
+        > .nav li > a p,
+        > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+        .user
+          .info
+          [data-toggle="collapse"]
+          ~ div
+          > ul
+          > li
+          > a
+          .sidebar-normal,
+        .user .info > a > span {
+          @include transform-translate-x(0px);
+          opacity: 1;
+        }
+      }
+      .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon {
+        opacity: 0;
+      }
+    }
+    .main-panel {
+      > .live-page {
+        .content {
+          padding-left: 130px;
+        }
+      }
+    }
+    footer {
+      padding-left: 130px;
+    }
+  }
+  .navbar-minimize {
+    button {
+      margin-left: 10px;
+      i {
+        color: $white;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.panel-header {
+  height: 260px;
+  padding-top: 80px;
+  padding-bottom: 45px;
+  background: #141e30;
+  /* fallback for old browsers */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0c2646),
+    color-stop(60%, #204065),
+    to(#2a5788)
+  );
+  background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+  position: relative;
+  overflow: hidden;
+  .header {
+    .title {
+      color: $white;
+    }
+    .category {
+      max-width: 600px;
+      color: $opacity-5;
+      margin: 0 auto;
+      font-size: 13px;
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+.panel-header-sm {
+  height: 135px;
+}
+
+.panel-header-lg {
+  height: 380px;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar {
+    background: #272727;
+    //@include linear-gradient($primary-states, $primary);
+    position: absolute;
+    display: block;
+    top: 0;
+    //height: 100%;
+    width: 219px;
+    right: auto;
+    left: -30px;
+    border-radius: 0;
+    z-index: 1032;
+    visibility: visible;
+    overflow-y: visible;
+    padding: 0;
+    @include transition(0.5s cubic-bezier(0.685, 0.0473, 0.346, 1));
+    @include transform-translate-x(-260px);
+  }
+  .wrapper {
+    @include transition(0.5s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+  }
+  .main-panel {
+    width: 100%;
+    .live-page {
+      .content {
+        padding-left: 0;
+        margin-left: 0;
+      }
+    }
+  }
+  .nav-open {
+    .main-panel {
+      right: 0;
+      //@include transform-translate-x(260px);
+    }
+    .sidebar {
+      @include transition(0.5s cubic-bezier(0.685, 0.0473, 0.346, 1));
+      @include transform-translate-x(30px);
+      &:before {
+        content: unset;
+      }
+    }
+    body {
+      position: relative;
+      overflow-x: hidden;
+    }
+    .menu-on-right {
+      .main-panel {
+        @include transform-translate-x(-260px);
+      }
+      .navbar-collapse,
+      .sidebar {
+        @include transform-translate-x(0px);
+      }
+      #bodyClick {
+        right: 260px;
+        left: auto;
+      }
+    }
+    .fixed-plugin {
+      display: none;
+    }
+  }
+  .menu-on-right {
+    .sidebar {
+      left: auto;
+      right: 0;
+      @include transform-translate-x(260px);
+    }
+  }
+  #bodyClick {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    right: 0;
+    left: 260px;
+    content: "";
+    z-index: 9999;
+    overflow-x: hidden;
+    background-color: transparent;
+    @include transition(0.5s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+  }
+  .navbar .dropdown-menu {
+    position: static !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-panel .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

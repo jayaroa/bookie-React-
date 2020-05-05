@@ -1,4 +1,3 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
@@ -15,8 +14,8 @@ const hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/" render={props => <HomeLayout {...props} />} />
-      <Redirect from="/" to="/home/sports" />
+      <Route path="/" render={(props) => <HomeLayout {...props} />} />
+      <Redirect from="/" to="/home/live" />
     </Switch>
   </Router>,
   document.getElementById("root")
