@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "id": 12001,
+            "name": "Premier League",
+            "is_active": true,
+            "sport_id": 1,
+            "region_id": 45,
+            "events_count": 8
+        },
+        {
+            "id": 12630,
+            "name": "Burundian Cup",
+            "is_active": true,
+            "sport_id": 1,
+            "region_id": 45,
+            "events_count": 0
+        },
+        {
+            "id": 33589,
+            "name": "President Cup",
+            "is_active": true,
+            "sport_id": 1,
+            "region_id": 45,
+            "events_count": 0
+        }
+    ],
+    "message": "Successful.",
+    "code": 200
+}

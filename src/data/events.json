@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 338,
+      "name": "Mery Hovhannisyan - Mane Ghazaryan",
+      "start_at": "2020-04-02T05:00:00.000000Z",
+      "state": "early",
+      "status": 0,
+      "status_name": "Not Started",
+      "live_status": 1,
+      "live_status_name": "Not Available",
+      "is_active": true,
+      "sport_id": 40,
+      "region_id": 20,
+      "league_id": 14300,
+      "teams": [
+        {
+          "id": 471,
+          "name": "Mane Ghazaryan",
+          "is_active": 1,
+          "is_home": false
+        },
+        {
+          "id": 472,
+          "name": "Mery Hovhannisyan",
+          "is_active": 1,
+          "is_home": true
+        }
+      ],
+      "stats": null
+    },
+    {
+      "id": 50,
+      "name": "Taras Emelyanov - Viktor Vakhrushev",
+      "start_at": "2020-04-02T05:35:00.000000Z",
+      "state": "early",
+      "status": 0,
+      "status_name": "Not Started",
+      "live_status": 1,
+      "live_status_name": "Not Available",
+      "is_active": true,
+      "sport_id": 40,
+      "region_id": 239,
+      "league_id": 35149,
+      "teams": [
+        {
+          "id": 78,
+          "name": "Taras Emelyanov",
+          "is_active": 1,
+          "is_home": true
+        },
+        {
+          "id": 79,
+          "name": "Viktor Vakhrushev",
+          "is_active": 1,
+          "is_home": false
+        }
+      ],
+      "stats": null
+    }
+  ],
+  "message": "Successful.",
+  "code": 200
+}

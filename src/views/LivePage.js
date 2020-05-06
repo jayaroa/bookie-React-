@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
 import Sidebar from "components/Sidebar/Sidebar.js";
+import sports from '../data/sports.json'
 
 // reactstrap components
 import {
@@ -23,6 +24,13 @@ function LivePage(props) {
     cashOut: false
   });
   const {betCart, cashOut} = activeTab
+  // useEffect(() =>
+  //   fetch("../data/sports.json")
+  //     // .then(res => res.json())
+  //     .then(res => console.log("resss==>>>", res))
+  //     .catch((err) => console.log("err==>>", err) )
+  // );
+  // console.log("dddd",sports.data.map(i => i))
 
   return (
     <>
@@ -68,6 +76,7 @@ function LivePage(props) {
                               </span>
                             </div>
                             <div className="sports_dd">
+                              {sports.data.map(sport => (console.log("yess")))}
                               <div id="sports-list">
                                 <a
                                   href="javascript:;"

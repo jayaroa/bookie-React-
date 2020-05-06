@@ -1,0 +1,198 @@
+{
+    "data": [
+        {
+            "id": 45,
+            "name": "Burundi",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 12001,
+                    "name": "Premier League",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 45,
+                    "events_count": 8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Europe",
+            "is_active": true,
+            "leagues_count": 2,
+            "leagues": [
+                {
+                    "id": 9585,
+                    "name": "UEFA European Championship. Outright",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 4,
+                    "events_count": 2
+                },
+                {
+                    "id": 19123,
+                    "name": "UEFA Nations League",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 4,
+                    "events_count": 27
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Denmark",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 13614,
+                    "name": "DBU Pokalen. Outright",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 69,
+                    "events_count": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "World",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 34,
+                    "name": "Club Friendlies",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 3,
+                    "events_count": 4
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "South America",
+            "is_active": true,
+            "leagues_count": 2,
+            "leagues": [
+                {
+                    "id": 2289,
+                    "name": "Copa America",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 8,
+                    "events_count": 5
+                },
+                {
+                    "id": 31342,
+                    "name": "Copa America. Outright",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 8,
+                    "events_count": 1
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "name": "England",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 10560,
+                    "name": "Special Bets",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 257,
+                    "events_count": 1
+                }
+            ]
+        },
+        {
+            "id": 225,
+            "name": "Tajikistan",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 10482,
+                    "name": "Premier league",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 225,
+                    "events_count": 5
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Belarus",
+            "is_active": true,
+            "leagues_count": 2,
+            "leagues": [
+                {
+                    "id": 1064,
+                    "name": "Premier League",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 29,
+                    "events_count": 8
+                },
+                {
+                    "id": 3934,
+                    "name": "Premier League Reserves",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 29,
+                    "events_count": 6
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "name": "Germany",
+            "is_active": true,
+            "leagues_count": 1,
+            "leagues": [
+                {
+                    "id": 12629,
+                    "name": "DFB Pokal. Outright",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 91,
+                    "events_count": 1
+                }
+            ]
+        },
+        {
+            "id": 168,
+            "name": "Nicaragua",
+            "is_active": true,
+            "leagues_count": 2,
+            "leagues": [
+                {
+                    "id": 3404,
+                    "name": "Primera Division",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 168,
+                    "events_count": 5
+                },
+                {
+                    "id": 26206,
+                    "name": "U20 Championship",
+                    "is_active": true,
+                    "sport_id": 1,
+                    "region_id": 168,
+                    "events_count": 2
+                }
+            ]
+        }
+    ],
+    "message": "Successful.",
+    "code": 200
+}

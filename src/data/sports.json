@@ -1,0 +1,972 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Football",
+            "is_active": true,
+            "regions_count": 10
+        },
+        {
+            "id": 2,
+            "name": "Ice Hockey",
+            "is_active": true,
+            "regions_count": 2
+        },
+        {
+            "id": 3,
+            "name": "Basketball",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 4,
+            "name": "Tennis",
+            "is_active": true,
+            "regions_count": 3
+        },
+        {
+            "id": 5,
+            "name": "Volleyball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 6,
+            "name": "American Football",
+            "is_active": true,
+            "regions_count": 2
+        },
+        {
+            "id": 7,
+            "name": "Athletics",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 8,
+            "name": "Aussie Rules",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 9,
+            "name": "Badminton",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 10,
+            "name": "Bandy",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 11,
+            "name": "Baseball",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 12,
+            "name": "Beach Football",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 13,
+            "name": "Beach Handball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 14,
+            "name": "Beach Volleyball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 15,
+            "name": "Biathlon",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 16,
+            "name": "Bowls",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 17,
+            "name": "Boxing",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 18,
+            "name": "Chess",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 19,
+            "name": "Cricket",
+            "is_active": true,
+            "regions_count": 2
+        },
+        {
+            "id": 20,
+            "name": "Curling",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 21,
+            "name": "Cycling",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 22,
+            "name": "Darts",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 23,
+            "name": "Diving",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 24,
+            "name": "Floorball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 25,
+            "name": "Formula 1",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 26,
+            "name": "Futsal",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 27,
+            "name": "Golf",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 28,
+            "name": "Gymnastics",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 29,
+            "name": "Handball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 30,
+            "name": "Field hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 31,
+            "name": "Motorbikes",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 32,
+            "name": "NASCAR",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 33,
+            "name": "Pool",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 34,
+            "name": "Rally",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 35,
+            "name": "Rugby League",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 36,
+            "name": "Rugby Union",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 37,
+            "name": "Shooting",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 38,
+            "name": "Snooker",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 39,
+            "name": "Swimming",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 40,
+            "name": "Table Tennis",
+            "is_active": true,
+            "regions_count": 3
+        },
+        {
+            "id": 41,
+            "name": "Water Polo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 42,
+            "name": "Electronic sports",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 43,
+            "name": "MMA",
+            "is_active": true,
+            "regions_count": 2
+        },
+        {
+            "id": 44,
+            "name": "Virtual Sports",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 45,
+            "name": "Gaelic football",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 46,
+            "name": "Hurling",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 47,
+            "name": "E-Football",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 48,
+            "name": "Surfing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 49,
+            "name": "E-Basketball",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 50,
+            "name": "Call of Duty (COD)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 51,
+            "name": "Counter-Strike: GO (CS:GO)",
+            "is_active": true,
+            "regions_count": 2
+        },
+        {
+            "id": 52,
+            "name": "Dota 2",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 53,
+            "name": "League of Legends (LoL)",
+            "is_active": true,
+            "regions_count": 9
+        },
+        {
+            "id": 54,
+            "name": "Hearthstone (HS)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 55,
+            "name": "Heroes of the Storm (HotS)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 56,
+            "name": "Overwatch",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 57,
+            "name": "Smite",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 58,
+            "name": "StarCraft (SC)",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 59,
+            "name": "StarCraft 2 (SC2)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 60,
+            "name": "World of Warcraft (W.o.W)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 61,
+            "name": "World of Tanks (W.o.T)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 62,
+            "name": "Sumo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 63,
+            "name": "Speedway",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 64,
+            "name": "Squash",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 65,
+            "name": "Politics",
+            "is_active": true,
+            "regions_count": 4
+        },
+        {
+            "id": 66,
+            "name": "Special bets",
+            "is_active": true,
+            "regions_count": 3
+        },
+        {
+            "id": 67,
+            "name": "Entertainment",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 68,
+            "name": "The Oscars",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 69,
+            "name": "Eurovision",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 70,
+            "name": "What? Where? When?",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 71,
+            "name": "Rugby Sevens",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 72,
+            "name": "Cross-Country Skiing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 73,
+            "name": "Short Track Speed Skating",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 74,
+            "name": "Freestyle Skiing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 75,
+            "name": "Luge",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 76,
+            "name": "Figure Skating",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 77,
+            "name": "Auto Racing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 78,
+            "name": "Alpine Skiing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 79,
+            "name": "Snowboarding",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 80,
+            "name": "Pesapallo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 81,
+            "name": "Extreme sport",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 82,
+            "name": "Ski Jumping",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 83,
+            "name": "Triathlon",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 84,
+            "name": "Netball",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 85,
+            "name": "Poker",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 86,
+            "name": "Lacrosse",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 87,
+            "name": "Rowing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 88,
+            "name": "Sailing",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 89,
+            "name": "WWE",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 90,
+            "name": "Freestyle Wrestling",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 91,
+            "name": "Greco-Roman Wrestling",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 92,
+            "name": "Rink Hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 93,
+            "name": "Inline Hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 94,
+            "name": "Olympics",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 95,
+            "name": "Vainglory",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 96,
+            "name": "Weightlifting",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 97,
+            "name": "Artistic Swimming",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 98,
+            "name": "Heroes of Newerth (HoN)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 99,
+            "name": "Archery",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 100,
+            "name": "Lottery",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 101,
+            "name": "Canoeing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 102,
+            "name": "Equestrian",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 103,
+            "name": "Fencing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 104,
+            "name": "Judo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 105,
+            "name": "Modern Pentathlon",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 106,
+            "name": "Taekwondo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 107,
+            "name": "E-Tennis",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 108,
+            "name": "CrossFire",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 109,
+            "name": "Halo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 110,
+            "name": "FIFA",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 111,
+            "name": "Nordic Combined",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 112,
+            "name": "Gears of War (GoW)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 113,
+            "name": "Indoor Hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 114,
+            "name": "Clash Royale",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 115,
+            "name": "TV Shows and Movies",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 116,
+            "name": "Mixed Football",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 117,
+            "name": "Street Fighter V (SF5)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 118,
+            "name": "Skeleton",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 119,
+            "name": "Bobsleigh",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 120,
+            "name": "Horse Racing Specials",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 121,
+            "name": "test",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 122,
+            "name": "Trotting",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 123,
+            "name": "Mortal Kombat 11",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 124,
+            "name": "Rocket League (Rocket L)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 125,
+            "name": "King of Glory (KoG)",
+            "is_active": true,
+            "regions_count": 1
+        },
+        {
+            "id": 126,
+            "name": "Quake",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 127,
+            "name": "PUBG",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 128,
+            "name": "Kabaddi",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 129,
+            "name": "UFC 2",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 130,
+            "name": "Street Fighter",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 131,
+            "name": "Tekken 7",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 132,
+            "name": "Warcraft III  (W3:TFT)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 133,
+            "name": "International Rules",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 134,
+            "name": "Gwent",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 135,
+            "name": "Speed Skating",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 136,
+            "name": "E-Ice hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 137,
+            "name": "Fortnite",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 138,
+            "name": "Petanque",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 139,
+            "name": "Sambo",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 140,
+            "name": "Bodybuilding",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 141,
+            "name": "Future Horse Racing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 142,
+            "name": "PMU Horse Racing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 143,
+            "name": "Sepak Takraw",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 144,
+            "name": "Rainbow Six (R6)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 145,
+            "name": "Artifact",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 146,
+            "name": "Arena of Valor (AOV)",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 147,
+            "name": "NBA 2K",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 148,
+            "name": "3x3 Basketball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 149,
+            "name": "Jenga",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 150,
+            "name": "Ball Hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 151,
+            "name": "Teamfight Tactics",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 152,
+            "name": "Go",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 153,
+            "name": "special bet 1",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 154,
+            "name": "Virtual Car Racing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 155,
+            "name": "VR-Boxing",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 156,
+            "name": "Yukigassen",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 157,
+            "name": "Softball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 158,
+            "name": "Air Hockey",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 159,
+            "name": "Virtual Formula 1",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 160,
+            "name": "E-Volleyball",
+            "is_active": true,
+            "regions_count": 0
+        },
+        {
+            "id": 161,
+            "name": "test 2",
+            "is_active": true,
+            "regions_count": 0
+        }
+    ],
+    "message": "Successful.",
+    "code": 200
+}
