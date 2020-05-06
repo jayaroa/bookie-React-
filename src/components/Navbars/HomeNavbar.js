@@ -103,12 +103,12 @@ class HomeNavbar extends React.Component {
                 <Collapse navbar isOpen={this.state.collapseOpen}>
                     <Nav navbar className="mr-auto">
                         <NavItem>
-                            <NavLink to="/sports" tag={Link}>
+                            <NavLink to="/home/sports" tag={Link}>
                                 Sports
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/live" tag={Link}>
+                            <NavLink to="/home/live" tag={Link}>
                                 Live
                             </NavLink>
                         </NavItem>

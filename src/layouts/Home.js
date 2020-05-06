@@ -113,10 +113,10 @@ class Home extends React.Component {
                             }
                             toggleSidebar = { this.toggleSidebar }
                         /> */}
-                        {console.log("hyoooo", this.getRoutes(routes).map(i => i.props.path))}
                         <Switch>
                             { this.getRoutes(routes) }
-                            <Redirect from = "*" to = "/home/live" />
+                            <Redirect from = "*" to = "/home/sports" />
+                            {/* {routes.map(route => <Route path = {route.layout + route.path} component={route.component} key={route.key} />)} */}
                             
                         </Switch>
                         { // we don't want the Footer to be rendered on map page
